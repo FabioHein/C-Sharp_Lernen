@@ -19,7 +19,7 @@ namespace Mygame.Items
 
         public void Use()
         {
-            Console.WriteLine($"Spieler benutzt {_name}.");
+            Console.WriteLine($"Benutze {_name} (Type : {_type})");
         }
     }
 }
