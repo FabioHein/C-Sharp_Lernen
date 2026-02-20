@@ -4,10 +4,8 @@ using System;
 
 namespace Mygame.Items
 {
-    public class HealPotion : IUseable
+    public class HealPotion : Item, IUseable
     {
-        private string _name;
-        private ItemType _type;
 
         public HealPotion(string name)
         {

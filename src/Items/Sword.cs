@@ -4,11 +4,9 @@ using System;
 
 namespace Mygame.Items
 {
-    public class Sword : IEquipable, IUseable
+    public class Sword : Item, IEquipable, IUseable
     {
-        private string _name;
-        private ItemType _type;
-
+       
         public Sword(string name)
         {
             _name = name;
