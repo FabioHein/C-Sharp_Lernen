@@ -1,13 +1,19 @@
 ﻿using System;
+using Mygame.Enums;
 
-public abstract class Item
+
+namespace Mygame.Items
 {
-    protected string _name;
-    protected ItemType _type;
 
-    public Item(string name, ItemType type)
+    public abstract class Item
     {
-        _name = name;
-        _type = type;
+        protected string _name;
+        protected ItemType _type;
+
+        public Item(string name, ItemType type)
+        {
+            _name = name;
+            _type = type;
+        }
     }
 }
