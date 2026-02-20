@@ -7,7 +7,7 @@ namespace Mygame.Items
     public class HealPotion : Item, IUseable
     {
 
-        public HealPotion(string name) : base(name, ItemType.Potion)
+        public HealPotion(string name, int gold) : base(name, ItemType.Potion, gold)
         {
         }
 

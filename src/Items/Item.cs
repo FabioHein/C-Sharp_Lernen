@@ -9,11 +9,13 @@ namespace Mygame.Items
     {
         protected string _name;
         protected ItemType _type;
+        public int GoldValue { get;  protected set; }
 
-        public Item(string name, ItemType type)
+        public Item(string name, ItemType type, int value)
         {
             _name = name;
             _type = type;
+            GoldValue = value;
         }
     }
 }

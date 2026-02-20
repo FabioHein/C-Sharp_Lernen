@@ -7,7 +7,7 @@ namespace Mygame.Items
     public class Sword : Item, IEquipable, IUseable
     {
        
-        public Sword(string name) : base(name, ItemType.Weapon)
+        public Sword(string name, int gold) : base(name, ItemType.Weapon, gold)
         { 
         }
 
